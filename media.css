@@ -1,0 +1,135 @@
+@media screen and (max-width: 768px){
+    .main-nav ul{
+        display: none;
+    }
+    .user{
+        display: block;
+    }
+    .zomato-logo{
+        width: 145px;
+        margin-top: 40px;
+    }
+    .header-body-section-discover{
+        font-size:20px;
+        text-align: center;
+    }
+    .detectionLocation {
+        width: 100%;
+    }
+    .detectionLocation input{
+        width: 100%;
+    }
+    .hide{
+        display: flex;
+    }
+    .search-item{
+        display: none;
+    }
+    .search-container{
+        margin-bottom: -20px;
+    }
+    .image-container{
+        height: 413px;
+    }
+    .section-1{
+        margin-top: 20px;
+    }
+    .features h3{
+        font-size: 15px;
+        margin: 0;
+    }
+    .features p{
+        font-size: 10px;
+        padding-left: 10px;
+    }
+    .feature-image{
+        height: 100px;
+    }
+    .features{
+        height: 150px;
+    }
+    .section-2-left{
+        margin-left: -17px;
+    }
+    .section-2-left h1{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .section-2-left p{
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+    .section-2-right{
+       display: none;
+    }
+    .section-2-bottom{
+        display: flex;
+    }
+    .section-2-item{
+        width: 50%;
+        height: 200px;
+    }
+    .section-2-image-describtion p {
+        font-size: 13px;
+        height: 30px;
+    }
+    .section-2-image-describtion p:nth-child(2) {
+        font-size: 13px;
+    }
+    .section-2-item:first-child{
+        margin: 0;
+    }
+    .section-3{
+        margin-top: 20px;
+    }
+    .section-3 h1{
+        font-size: 20px;
+    }
+    .localities_list{
+        width: 96%;
+    }
+    .section-3 h3{
+        font-size: 15px;
+    }
+    .section-3 h3:last-child{
+        margin: 30px 50px;
+    }
+    .section-4{
+        padding: 60px 3%;
+    }
+    .zomato-app-image img {
+        display: none;
+    }
+    .zomato-app-details{
+        width: 417px;
+    }
+    .zomato-app-details h1{
+        font-size: 30px;
+    }
+    .zomato-app-details p{
+        font-size: 15px;
+    }
+    .input-container-zomato-app input{
+        width: 230px;
+    }
+    .show-btn{
+        display: none;
+    }
+    .hide-btn{
+        display: block;
+        width: 75px;
+        font-size: 15px;
+    }
+    .download-app-from{
+        color: rgb(137, 137, 137);
+    }
+    .section-5 h1{
+        font-size: 20px;
+    }
+    .footer-logo{
+        width: 100%;
+    }
+    .footer-menu-items{
+        width: 200px;
+    }
+}

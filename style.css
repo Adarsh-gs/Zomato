@@ -1,0 +1,517 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    width: 100%;
+    font-family: Okra, Helvetica, sans-serif;
+
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+/* header */
+header{
+    position: relative;
+    height: 100%;
+}
+.logo-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 100%;
+}
+.user{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 38px;
+    height: 30px;
+    display: none;
+}
+.fa-user{
+    color: #ff1818;
+    margin: 5px 0 0 7px;
+}
+.image-container{
+    position: relative;
+    width: 100%;
+    height: 442px;
+    overflow: hidden;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+}
+.header-body-section{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: white;
+    height: 412px;
+}
+.main-nav{
+    height: 50px;
+    width: 100%;
+    
+}
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logoContainer{
+    display: flex;
+    align-items: center;
+}
+.logoContainer p{
+    padding: 5px;
+}
+nav{
+    height: 50px;
+    
+}
+nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    align-items: center;
+    margin-top: -25px;
+}
+.main-nav a{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    cursor: pointer;
+    margin-right: 50px;
+    font-size: 18px;
+}
+.zomato-logo{
+    width: 280px;
+    margin-bottom: 25px;
+}
+.container-header-body{
+    display: flex;
+    align-items: center;
+    height: 420px;
+    flex-direction: column;
+    margin-top: 90px;
+}
+.header-body-content{
+    position: relative;
+    top: -40px;
+}
+.header-body-section-discover{
+    font-size: 37px;
+    margin: 5px;
+}
+.search-container{
+    background-color: white;
+    width: 100%;
+    height: 53px;
+    max-width: 770px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    color: #000;
+    margin-top: 30px;
+}
+.detectionLocation{
+    display: flex;
+}
+.location-map{
+    color: rgb(229, 139, 139);
+    font-size: 20px;
+    padding: 10px;
+}
+.detectionLocation input{
+    border: none;
+    font-size: 15px;
+    width: 190px;
+    outline: none;
+}
+.caret-down{
+    padding-top: 12px;
+    color: #585858;
+}
+.search-item{
+    color: #a5a5a5;
+    font-size: 18px;
+    margin-left: 5px;
+}
+.line{
+    padding: 5px;
+    color: #d4d4d4;
+}
+.search-item{
+    display: flex;
+    overflow: hidden;
+}
+.search-item input{
+    max-width: 100%;
+    width: 400px;
+    font-size: 15px;
+    border: none;
+    padding: 5 10px;
+    outline: none;
+    margin-left: 5px;
+}
+.hide{
+    display: none;
+}
+
+/* section-1 */
+.section-1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.container-feature{
+    display: flex;
+    justify-content: center;
+}
+.features{
+    overflow: hidden;
+    border-radius: 10px;
+    border: 0.1px solid rgb(219, 219, 219);
+    margin-right: 20px;
+    width: 44%;
+    height: 235px;
+}
+.feature-image{
+    width: 100%;
+    height: 145px;
+    overflow: hidden;
+}
+.feature-image img{
+    width: 100%;
+}
+.features h3,
+.features p{
+
+    padding-left: 20px;
+    color: rgb(66, 66, 66);
+}
+.features:hover{
+    transition: transform 0.5s;
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+/* section 2 */
+
+.section-2-left h1{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.section-2-left p{
+    font-size: 20px;
+    margin-top: 0;
+}
+.section-2-top{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-2-right{
+    width: 211px;
+    align-self: flex-end;
+    color: rgb(228,56,56);
+}
+.section-2-bottom{
+    width: 211px;
+    align-self: flex-end;
+    color: rgb(228,56,56);
+    display: none;
+    margin-left: 20px;
+}
+.section-2-bottom p{
+    font-size: 12px;
+}
+.section-2-item{
+    max-width: 270px;
+    height: 320px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    margin-left: 10px;
+}
+.section-2-item:first-child{
+    margin-left: 6%;
+}
+.section-2-item img{
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
+.section-2-image-describtion{
+    padding: 0 10px;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0,0,0,1);
+    box-shadow: inset 0px 0px 50px rgba(0,0,0,0.5),
+    inset 0px 0px 50px rgba(0,0,0,0.5);
+}
+.section-2-image-describtion p{
+    margin: 0;
+    font-size: 19px;
+    padding: 5px;
+}
+.section-2-image-describtion p:nth-child(2){
+    font-size: 15px;
+}
+.section-2-body{
+    display: flex;
+}
+
+/* Section 3 */
+
+.section-3{
+    margin: 100px 0;
+    color: rgb(53,48,48);
+}
+
+.section-3 h1{
+    font-size: 40px;
+    font-weight: 100;
+    color: rgb(56, 56, 56);
+}
+.section-3 h3{
+    font-size: 23px;
+    font-weight: 100;
+    color: rgb(56,56,56);
+    margin-top: 15px;
+}
+.section-3 p{
+    font-size: 18px;
+    margin-bottom: 0;
+    justify-self: flex-end;
+    margin-top: -12px;
+}
+.localities_list{
+    display: flex;
+    justify-content: space-between;
+    max-width: 350px;
+    min-width: 350px;
+    height: 80px;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 2px 10px;
+    margin: 10px;
+}
+.localities_card{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.localities_container{
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+/* Section 4 */
+
+.section-4{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 100px;
+    background-color: rgb(255, 251, 247);
+    padding: 60px 20%;
+}
+
+.zomato-app-image img{
+    width: 250px;
+}
+.zomato-app-details h1{
+    font-size: 40px;
+    margin: 0 30px;
+} 
+.zomato-app-details p{
+    font-size: 18px;
+    margin-left:30px;
+}
+.zomato-app-input{
+    display: flex;
+    height: 45px;
+    margin: 20px 30px;
+}
+.input-container-zomato-app{
+    height: 100%;
+}
+input[type="radio"]{
+    accent-color: rgb(255, 87, 87);
+}
+.input-container-zomato-app input{
+    height: 100%;
+    width: 280px;
+    max-width: 300px;
+    margin-right: 7px;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+}
+.zomato-app-btn{
+    width: 150px;
+    font-size: 17px;
+    color: white;
+    background-color: rgb(219, 79, 95);
+    border: none;
+    border-radius: 5px;
+}
+.zomato-app-radio-btn{
+    margin: 5px 30px;
+    font-size: 18px;
+}
+.hide-btn{
+    display: none;
+}
+.download-app{
+    display: flex;
+}
+.download-app img{
+    width: 100%;
+    max-width: 120px;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+/* section-5 */
+
+.section-5{
+    margin-bottom: 200px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.section-5 h1{
+    font-size: 30px;
+    color: rgb(37,37,37);
+    margin: 0;
+    margin-bottom: 30px;
+}
+.section-5_collapse_heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(65,64,64);
+    margin: 1px;
+}
+.section-5_collapse{
+    border: 1px solid rgb(231, 231, 231);
+    margin: 15px 0;
+    padding: 5px 25px;
+    border-radius: 8px;
+
+}
+.section-5_collapse h2{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* Footer */
+footer{
+    background-color: #fafafa;
+    padding-top: 50px;
+    margin-top: -150px;
+}
+.flag-image{
+    width: 20px;
+    height: 15px;
+}
+.flag-image img{
+    width: 100%;
+    height: 100%;
+}
+.footerOptionSection{
+    display: flex;
+    border: 1px solid #c7c7c7;
+    padding: 10px;
+    border-radius: 8px;
+    align-items: center;
+}
+.footerOptionSection:first-child{
+    margin-right: 20px;
+}
+.footerOptionSection select{
+    width: 80px;
+    border: none;
+    font-size: 16px;
+    color: rgb(28, 28, 28);
+}
+.footerlanguagecountry{
+    display: flex;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.footer-logo{
+    width: 130px;
+}
+.footer-logo img{
+    width: 65%;
+}
+.footer-menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95%;
+    margin-bottom: 30px;
+}
+.downloadApp{
+    width: 150px;
+    display: block;
+}
+.downloadApp img{
+    width: 100%;
+}
+.footer-menu ul{
+    padding: 0;
+    list-style: none;
+}
+.footer-menu h3{
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+.footer-menu a{
+    color: rgb(138, 138, 138);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300px;
+    line-height: 1.8;
+    font-family: Okra, Helvetica, sans-serif;
+}
+.socialMediaLinks{
+    margin-bottom: 10px;
+    font-size: 27px;
+}
+.horizontalLine{
+    background-color:  rgb(255, 255, 255);
+}
+.footer-paragraph{
+    color: rgb(105, 105, 105);
+    font-size: 13px;
+    line-height: 17px;
+    margin-bottom: 30px;
+}
